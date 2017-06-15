@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="assets/stylesheets/vendor/normalize.css" />
+        <link rel="stylesheet" href="assets/stylesheets/vendor/960_12_col.css" />
+        <link rel="stylesheet" href="assets/stylesheets/style.css" />
+        <script type="text/javascript" src="assets/javascripts/script.js"></script>
+        <title>Петербургская ассоциация любительского футбола</title>
+        <style type="text/css">
+            .demo {
+                margin: 100px 0 0 15px;
+            }
+
+            .demo li:not(:last-child) {
+                margin-bottom: 10px;
+            }
+
+            .demo ol {
+                counter-reset: list;
+            }
+
+            .demo ol > li {
+                position: relative;
+            }
+
+            .demo ol > li::before {
+                position: absolute;
+                right: 100%;
+                margin: 0 5px 0 0;
+                color: #bfbfbf;
+                font-size: inherit;
+                content: counter(list) ".";
+                counter-increment: list;
+            }
+
+            .demo a {
+                color: #000;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container_12">
+            <nav class="demo">
+                <h3>Петербургская ассоциация любительского футбола</h3>
+                <ol>
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="/archive.html">Архив</a></li>
+                    <li><a href="/championship.html">Чемпионат</a></li>
+                    <li><a href="/command.html">Команда</a></li>
+                    <li><a href="/contacts.html">Контакты</a></li>
+                    <li><a href="/division.html">Девизион</a></li>
+                    <li><a href="/media.html">Медиа</a></li>
+                </ol>
+            </nav>
+        </div>
+    </body>
+</html>

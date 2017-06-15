@@ -1,3 +1,55 @@
 .footer {
-    
+    height: 97px;
+    background: #326295;
+
+    &_container {
+        position: relative;
+        width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    &_btn {
+        position: absolute;
+        top: 12px;
+        width: 49px;
+        height: 49px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &__vk {
+            right: 59px;
+            background-image: url('/assets/images/vk-btn.png');
+        }
+
+        &__mail {
+            right: 0;
+            background-image: url('/assets/images/mail-btn.png');
+        }
+    }
+
+    &_copyright {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 22px;
+        text-transform: uppercase;
+    }
+
+    &_info {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: #fff;
+        font-size: 13px;
+        line-height: 22px;
+
+        > a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
 }

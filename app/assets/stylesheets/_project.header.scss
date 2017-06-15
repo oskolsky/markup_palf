@@ -1,3 +1,18 @@
 .header {
-    
+    height: 73px;
+    background: #326295;
+
+    &_container {
+        position: relative;
+        width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    &_logo {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        z-index: 1;
+    }
 }
