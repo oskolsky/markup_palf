@@ -5,24 +5,21 @@
     align-content: stretch;
     align-items: stretch;
     justify-content: flex-start;
+    height: 100%;
 
     &_header {
         flex: 0 1 auto;
-        border: 10px solid blue;
     }
 
     &_nav {
         flex: 0 1 auto;
-        border: 10px solid green;
     }
 
     &_main {
         flex: 1 1 auto;
-        border: 10px solid red;
     }
 
     &_footer {
         flex: 0 1 auto;
-        border: 10px solid green;
     }
 }
